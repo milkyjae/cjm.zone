@@ -713,6 +713,9 @@ a {
         display: flex;
         align-items: center;
     }
+     .nav-bar{
+        gap: 5px;
+    }
     .brightness button:nth-child(1) {
         margin-right: 1px;
         margin-left: 15px; 
