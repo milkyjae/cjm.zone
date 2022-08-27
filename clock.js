@@ -1,3 +1,17 @@
+function darkMode() {
+    var body = document.body;
+    body.className = "dark-mode";
+    const image = document.querySelector(".asterix");
+    image.src = "media/asterix/white-asterix.svg"
+  }
+
+function lightMode() {
+    var body = document.body;
+    body.className = "light-mode";
+    const image = document.querySelector(".asterix");
+    image.src = "media/asterix/black-asterix.svg"
+  }
+
 function checkTime(i){
     if (i<10) {
         i="0" + i;
