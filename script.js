@@ -21,7 +21,6 @@ window.onload = function() {
     document.getElementsByClassName("one").addEventListener('click', changeClass);
 }
 
-// Pasted Code
 document.querySelector('#one').addEventListener('click', function (ev) {
     playSong(this, 'trax/bounce-synth.wav')
 })
